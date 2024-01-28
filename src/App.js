@@ -1,5 +1,5 @@
 
-import { Link, Route, Routes } from 'react-router-dom';
+import {  Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 
@@ -17,7 +17,7 @@ function App() {
   },[]) */
   return (
     <> 
-  <nav>
+{/*   <nav>
      <ul>
        <li>
          <Link to={'/'} >Home</Link>
@@ -28,14 +28,16 @@ function App() {
         <Link to={'/details'} >details</Link>
        </li>
      </ul>
-  </nav>
-
-    <Routes>
+  </nav> */}
+<div className='App'>
+<Routes>
        <Route path='/'   element={<Home/>}/>  
        <Route path='/details' element={<Details/>}/>
       
        
     </Routes>
+</div>
+   
     </>
   );
 }
