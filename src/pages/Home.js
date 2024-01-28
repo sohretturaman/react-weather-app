@@ -85,7 +85,7 @@ console.log('icon code ',iconCode);
     <div  className='container'>
       
      
-      <span>Chose your country </span>
+      <span>Chose your city </span>
       <br />
       <select name={city} onChange={handleCityClick}>
         {cities.map((item, index) => {
@@ -115,8 +115,8 @@ console.log('icon code ',iconCode);
             </div>
             <br/>
             <div>
-              <span>  { weatherData.day1?.main.temp_min} </span>
-              <span > { weatherData.day1?.main.temp_max}</span>
+              <span>  { weatherData.day1?.main.temp_min}°C</span><span>{''+''}</span>
+              <span > { weatherData.day1?.main.temp_max}°C</span>
             </div>
 
          </div>
