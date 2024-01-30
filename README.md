@@ -3,7 +3,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Deployed on Netlify 
+## Deployed on Netlify 
 Lİnk = https://keen-dango-cc1c91.netlify.app/
 ## Available Scripts
 
