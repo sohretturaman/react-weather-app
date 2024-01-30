@@ -112,7 +112,7 @@ function Home() {
   
   if(weatherData.day1.dt === undefined){
     console.log('data check undefined', weatherData.day1.dt);
-    return <h1>No data found</h1>
+    return <h3>No data found</h3>
   }
   
   const handleCityClick = (e) => {

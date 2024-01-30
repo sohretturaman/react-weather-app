@@ -1,9 +1,9 @@
 
-import {  Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 
-import Details from './pages/Details';
+import NewFile from './pages/NewFile';
 
 
 //export const API ='57adf1a8c2c34be34a149e59c4461094'; 
@@ -17,7 +17,7 @@ function App() {
   },[]) */
   return (
     <> 
-{/*   <nav>
+  <nav>
      <ul>
        <li>
          <Link to={'/'} >Home</Link>
@@ -25,14 +25,14 @@ function App() {
 
        </li>
        <li>
-        <Link to={'/details'} >details</Link>
+        <Link to={'/newfile'} >new file</Link>
        </li>
      </ul>
-  </nav> */}
+  </nav>
 <div className='App'>
 <Routes>
        <Route path='/'   element={<Home/>}/>  
-       <Route path='/details' element={<Details/>}/>
+       <Route path='/newfile' element={<NewFile/>}/>
       
        
     </Routes>
